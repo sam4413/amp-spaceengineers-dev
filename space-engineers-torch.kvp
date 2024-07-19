@@ -1,4 +1,4 @@
-Meta.DisplayName=Space Engineers Torch
+Meta.DisplayName=Space Engineers Torch (dev)
 Meta.Description=Allow running the TorchAPI program for your Space Engineers server. Compatible with Windows Server 2019/2022 only.
 Meta.Arch=x86_64
 Meta.Author=sam
