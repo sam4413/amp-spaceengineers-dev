@@ -853,7 +853,7 @@
   {
     "DisplayName": "World Path",
     "Category": "SE - General",
-    "Description": "Put the folder name of your worldfile inside the servers\\Saves\\ directory.",
+    "Description": "Put the folder name of your worldfile inside the \"Saves\" directory.",
     "Keywords": "path,world",
     "FieldName": "CustomWorldPath",
     "InputType": "text",
@@ -873,7 +873,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "/MyObjectBuilder_LastSession/Path/ | /MyConfigDedicated/LoadWorld/ ",
     "IncludeInCommandLine": false,
-    "DefaultValue": ".\\servers\\Saves\\{CustomWorldPath}",
+    "DefaultValue": "./servers/Saves/{CustomWorldPath}",
     "EnumValues": {}
   },
   {
