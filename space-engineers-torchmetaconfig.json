@@ -13,7 +13,7 @@
       "ConfigFile": "./Torch.cfg",
       "AutoMap": true,
       "ConfigType": "xml"
-    }
+    },
     {
       "ConfigFile": "./servers/Saves/LastSession.sbl",
       "AutoMap": true,
