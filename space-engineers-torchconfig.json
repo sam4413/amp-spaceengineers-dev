@@ -851,6 +851,32 @@
         "EnumValues": {}
     },
     {
+        "DisplayName": "World Path",
+        "Category": "SE - General",
+        "Description": "Put the folder name of your worldfile inside the servers\Saves\ directory.",
+        "Keywords": "path,world",
+        "FieldName": "CustomWorldPath",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "CustomWorldPath",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "World",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "World Path (Hidden)",
+        "Category": "SE - Hidden",
+        "Description": "",
+        "Keywords": "path,world",
+        "FieldName": "CustomWorldPathHidden",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/MyObjectBuilder_LastSession/Path/ | /MyConfigDedicated/LoadWorld/ ",
+        "IncludeInCommandLine": false,
+        "DefaultValue": ".\servers\Saves\{CustomWorldPath}",
+        "EnumValues": {}
+    },
+    {
         "DisplayName": "Custom Scenario",
         "Category": "SE - General",
         "Description": "Set this to the name of the folder you created under the \"Scenarios\" directory.",
