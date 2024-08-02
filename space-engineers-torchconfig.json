@@ -2679,7 +2679,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "/TorchConfig/LocalPlugins",
         "IncludeInCommandLine": false,
-        "DefaultValue": "false",
+        "DefaultValue": "true",
         "EnumValues": {
             "True": "true",
             "False": "false"
@@ -2824,5 +2824,16 @@
             "True": "true",
             "False": "false"
         }
+    },
+    {
+        "DisplayName": "Plugins",
+        "Category": "SE - Torch",
+        "Description": "Add / Remove a plugin GUID here. Go to https://torchapi.com for a list of plugins.",
+        "Keywords": "Plugins,Add Plugins,Plugins list,Torch,Server",
+        "FieldName": "Plugins",
+        "InputType": "list",
+        "IsFlagArgument": true,
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
     }
 ]
