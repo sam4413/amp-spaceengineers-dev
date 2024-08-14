@@ -2858,8 +2858,8 @@
     "Keywords": "Plugins,Add Plugins,Plugins list,Torch,Server",
     "FieldName": "Plugins",
     "InputType": "list",
-    "IsFlagArgument": true,
-    "IncludeInCommandLine": true,
+    "IsFlagArgument": false,
+    "IncludeInCommandLine": false,
     "SkipIfEmpty": true
   }
 ]
