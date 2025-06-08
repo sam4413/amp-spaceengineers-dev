@@ -13,7 +13,7 @@ read -r DPY_NUM < display.log
 rm display.log
 
 export WINEPREFIX="$SCRIPTDIR/torch-on-amp/.wine"
-export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEDLLOVERRIDES=\"mscoree=n,b;mshtml=n,b\"; $SCRIPTDIR Torch.Server.exe -noupdate -nogui -console
 export WINEARCH=win64
 export WINEDEBUG=fixme-all
 export DISPLAY=:$DPY_NUM
