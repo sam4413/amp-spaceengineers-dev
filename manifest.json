@@ -1,9 +1,10 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-hy244ea6rr56",
-	"authors": ["sam44"],
-	"origin": "https://github.com/sam4413/amp-spaceengineers-dev.git",
-	"url": "https://github.com/sam4413/amp-spaceengineers-dev",
-	"imagefile": "",
-	"prefix": "",
-	"repotype": "AppTemplates"
+    "id": "58112862-fc1b-4c27-8677-fed8349e2a3a",
+    "authors": [
+        "sam44"
+    ],
+    "origin": "https://github.com/sam4413/amp-spaceengineers-dev",
+    "url": "https://github.com/sam4413/amp-spaceengineers-dev ",
+    "imagefile": "https://avatars.githubusercontent.com/u/43707772?v=4&size=40",
+    "prefix": "sam44"
 }
